@@ -1,0 +1,8 @@
+typedef unsigned int offest;
+typedef unsigned int size_in_bytes;
+typedef unsigned int size_in_words;
+
+#define NULL_OFFSET INT_MAX
+#define block_size(h, offset) h->space[offset]
+#define block_prev_offest(h, offset) h->space[offset+1] 
+#define block_next_offset(h, offset) h->space[offset+2]

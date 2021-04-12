@@ -1,0 +1,3 @@
+How to we index the file to sort through the entry by index like we did before?
+How do we access entry[] from the file?
+Lines 80&81 are they right OR are they wrong? The whole insert_product function really. 
